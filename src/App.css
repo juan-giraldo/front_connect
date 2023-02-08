@@ -1,0 +1,83 @@
+*{
+  margin:0;
+}
+
+.App {
+  text-align: center;
+  background-image:url(https://www.ufinet.com/wp-content/uploads/2015/09/shutterstock_287925749-Capilaridad-01.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header{
+  /* display: inline-block; */
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.manual {
+  margin-right: 1vw;
+  min-width: 11vw;
+  min-height: 9vh;
+  height: 10vh;
+  width: 12.8vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.manual img{
+  height: 6.5vh;
+  margin-top:1.8vh;
+  margin-right:1.5vw;
+}
+
+.manual h2{
+  margin: auto;
+  margin-left: 0.5vw;
+  height: 8vh;
+  padding-top: 2.4vh;
+}
+
+#icon{
+  height: 9vh;
+  margin-top:0.8vh;
+  margin-left: 2vw;
+}
+
+.Prompt{
+  width: 60vw;
+  height: 70vh;
+  margin: auto; 
+}
+.prompt-footer{
+  color:green;
+}
+.promp-body{
+  text-align: justify;
+  background-color: black;
+  height:60vh;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: repeat(2.1fr); 
+  grid-template-areas: "n1 n2";
+
+}
+
+.promp-body p{
+  margin: 0.3vw;
+  color: aliceblue;
+}
+
+.drop {
+  width: 100%;
+  text-align: center;
+}
+.items {
+
+  width: 100%;
+  text-align: center !important;
+  padding-left: 50vh;
+}

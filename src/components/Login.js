@@ -3,7 +3,7 @@ import { UserAuthu } from '../App'
 import { Navigate, Outlet, useNavigate } from "react-router-dom";
 import io from "socket.io-client";
 import swal from "sweetalert";
-const socket =io.connect("connetufinet.ddns.net:5001")
+const socket =io.connect("connetufinet.ddns.net:5002")
 
 function Login() {
     let flag1 = 0;
